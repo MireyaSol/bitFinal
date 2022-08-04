@@ -1,5 +1,8 @@
+
+
 h1{
     margin-top: 60px;
+    margin-bottom: 0px;
     padding-top: 8px;
     text-align: center;
     color: white;
@@ -13,6 +16,7 @@ body{
     margin:0;
     padding:0;
     background: rgb(213, 69, 69);
+    font-family: sans-serif;
 }
 
 nav{
@@ -22,6 +26,7 @@ nav{
     overflow: auto;
     position: fixed; /*position moving with screen*/
     top: 0px; /*makes sure the navbar is touching top of screen*/
+    margin-bottom: 0;
 }
 
 ul{
@@ -56,3 +61,94 @@ nav a{
 nav a:hover{
     background-color: rgb(213, 69, 69);
 }
+
+.secLI{
+    margin-bottom: 40px;
+    display: block;  /*makes a vertical list*/
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: large;
+}
+
+
+.contactBox{
+    box-shadow: 20px 20px 20px 0 black;  /* fix this */
+    left: 500px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+   top:50%; 
+   /* left: 50%; */
+   transform: translate(-50%, -50%); 
+   position: absolute;
+}
+
+form{
+    margin: 35px;
+}
+
+.inputField{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+    border: 1px solid rgb(213, 69, 69);
+    
+    
+
+}
+
+.textArea{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.button{
+    border-radius: 10px;  /*MAKES THE OBJECT A CIRCLE SHAPE*/
+    background-color:  rgb(213, 69, 69);
+    margin-top: 18px;
+    padding: 10px;
+}
+
+.aboutDIV{
+    display: inline-block; 
+    border: 1px solid blue; 
+    width: 33%; 
+    position: relative; 
+    top: -389px;
+}
+
+.social-footer {
+   margin-top: 100px;
+   clear: both;
+    padding: 1rem;
+    background: #8a8a8a;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+            
+  }
+  
+  .social-footer .social-footer-icons li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+  }
+  
+  .social-footer .social-footer-icons .fa:hover {
+    color: #4a4a4a;
+    transition: color 0.3s ease-in;
+  }
+  
+  
