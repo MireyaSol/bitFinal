@@ -62,6 +62,15 @@ nav a:hover{
     background-color: rgb(213, 69, 69);
 }
 
+
+
+.aboutDIV{
+    display: inline-block; 
+    width: 33%; 
+    position: relative; 
+    top: -289px;
+}
+
 .secLI{
     margin-bottom: 40px;
     display: block;  /*makes a vertical list*/
@@ -70,8 +79,39 @@ nav a:hover{
     text-align: center;
     padding-top: 5px;
     font-size: large;
+    box-shadow: 20px 20px 20px 0 black;
 }
 
+
+.aboutDIV2{
+    display: inline-block; 
+    width: 30%; 
+    position: relative; 
+    top: 0px;
+    z-index: 1;
+}
+
+.secLI2{
+    position: relative;
+    margin-top: 40px;
+    display: block;  /*makes a vertical list*/
+    background-color: white;
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    padding: 9px;
+    font-size: large;
+    box-shadow: 20px 20px 20px 0 black;
+
+}
+
+.aboutDIV3{
+    display: inline-block; 
+    /* border: 1px solid blue;  */
+    width: 33%; 
+    position: relative; 
+    top: -185px;
+}
 
 .contactBox{
     box-shadow: 20px 20px 20px 0 black;  /* fix this */
@@ -95,9 +135,7 @@ form{
     margin-top: 20px;
     padding-right: 10px;
     border: 1px solid rgb(213, 69, 69);
-    
-    
-
+    font-family: sans-serif;
 }
 
 .textArea{
@@ -112,13 +150,6 @@ form{
     padding: 10px;
 }
 
-.aboutDIV{
-    display: inline-block; 
-    border: 1px solid blue; 
-    width: 33%; 
-    position: relative; 
-    top: -389px;
-}
 
 .social-footer {
    margin-top: 100px;
